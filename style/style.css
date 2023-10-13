@@ -1,0 +1,208 @@
+.ex-1-square {
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    
+    transition: all ease-in-out 2s;
+}
+
+/* modifiche */
+.ex-1-square:hover {
+    background-color: red;
+}
+
+
+
+.ex-2-square {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: all ease 2s;
+}
+
+
+/* modifiche */
+.ex-2-square:active{
+    width: 80%;
+}
+
+
+.ex-3-square {
+    width: 100px;
+    height: 100px;
+    background: red;
+
+    transition: all ease 1s;
+
+}
+
+
+/* modifiche */
+.ex-3-square:hover{
+    border-radius: 50%;
+}
+
+
+.ex-4-square {
+    width: 100px;
+    height: 100px;
+    background: red;
+
+    transition: all ease 1s;
+
+}
+
+
+/* modifiche */
+.ex-4-square:hover{
+    opacity: 0;
+}
+
+
+
+.ex-5-square {
+    margin: 20px;
+    width: 60px;
+    height: 60px;
+    background: red;
+
+    transition: all ease 1s;
+
+}
+
+
+/* modifiche */
+.ex-5-square:hover {
+    width: 90px;
+    height: 90px;
+}
+
+.ex-5-square:active {
+    width: 30px;
+    height: 30px;
+    
+}
+
+
+
+.ex-6-img, .ex-7-img, .ex-8-img {
+    width: 500px;
+
+}
+
+.ex-6-img{
+    transition: all;
+  
+}
+
+.ex-7-img, .ex-8-img {
+    transition: all ease-in 0.5s;
+ 
+}
+
+
+/* modifiche */
+.ex-6-img:hover{
+    filter: grayscale(2);
+}
+
+.ex-7-img:hover{
+    filter: brightness(50%) blur(10px);
+}
+
+
+.ex-8-img:hover{
+    border-radius: 20%;
+    filter: contrast(20%) brightness(80%); 
+}
+
+
+
+.ex-9-img {
+    margin: 50px 100px;
+    width: 400px;
+
+    transition: all ease-in 0.5s;
+
+}
+
+/* modifiche */
+
+
+.ex-9-img:hover{
+    border-radius: 40%;
+    filter: contrast(200%) grayscale(80%);
+    transform: scale(1.5);
+}
+
+
+
+.ex-10-icon {
+    font-size: 60px;
+    animation-name: circle;
+    animation-play-state: initial;
+
+}
+
+
+/* modifiche */
+
+@keyframes circle{
+
+}
+
+.ex-11-icon {
+    font-size: 60px;
+}
+
+
+/* modifiche */
+
+
+
+.ex-12-button, .ex-13-button {
+    position: relative;
+    display: block;
+    width: 200px;
+    height: 70px;
+    text-transform: uppercase;
+    border: 3px solid #1b3c59;
+    color: #1b3c59;
+    font-size: 20px;
+    line-height: 70px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+/* modifiche */
+
+
+
+
+.ex-12-top-white, .ex-13-top-white {
+    position: absolute;
+    top: -10px;
+    left: 10%;
+    background: #f5f5f5;
+    width: 60px;
+    height: 20px;
+}
+
+
+
+/* modifiche */
+
+
+
+.ex-12-bottom-white, .ex-13-bottom-white {
+    position: absolute;
+    bottom: -10px;
+    right: 20%;
+    background: #f5f5f5;
+    width: 60px;
+    height: 20px;
+}
+
+
+/* modifiche */
